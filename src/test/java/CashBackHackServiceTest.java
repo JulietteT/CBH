@@ -14,7 +14,7 @@ public class CashBackHackServiceTest {
 
     @org.junit.Test
     public void testRemainBoundaryValuesTwo() {
-        org.junit.Assert.assertEquals(1000, service.remain(1));
+        org.junit.Assert.assertEquals(1000, service.remain(0));
     }
 
     @org.junit.Test
